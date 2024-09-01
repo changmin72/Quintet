@@ -18,21 +18,21 @@
 
     <div class='searchresult-container'>
 	<c:forEach var="c" items="${code}">
-        <div class='searchresult-card'>
+        <div class='searchresult-card' style='background-image: url("assets/css/Frame 55.png");'>
             <!-- {/* 카드 하나 구역 */} -->
-            <div class='src-movietitle'>${movieList[(c.moviecode)-1].moviename }</div>
-            <div class='src-peopletag'>
-            <c:if test="${c.fear==1}">공포</c:if> 
-                    <c:if test="${c.joy==1}">재미</c:if> 
-                    <c:if test="${c.surprise==1}">놀람</c:if> 
-                    <c:if test="${c.sadness==1}">슬픔</c:if> 
-                    <c:if test="${c.boredom==1}">지루함</c:if> 
-                    <c:if test="${c.pain==1}">고통</c:if> 
-                    <c:if test="${c.disgust==1}">역겨움</c:if> 
-                    <c:if test="${c.interest==1}">흥미</c:if> 
-                    <c:if test="${c.disappointment==1}">실망</c:if> 
+            <div class='src-movietitle' style='background-color:#6d6d6d; color:white; box-shadow: 5px 5px 1px grey;' >${movieList[(c.moviecode)-1].moviename }</div>
+            <div class='src-peopletag' style='font-size:18px; background-color:#6d6d6d; color:white; box-shadow: 5px 5px 1px grey;'  >
+            <c:if test="${c.fear==1}">#공포</c:if> 
+                    <c:if test="${c.joy==1}">#재미</c:if> 
+                    <c:if test="${c.surprise==1}">#놀람</c:if> 
+                    <c:if test="${c.sadness==1}">#슬픔</c:if> 
+                    <c:if test="${c.boredom==1}">#지루함</c:if> 
+                    <c:if test="${c.pain==1}">#고통</c:if> 
+                    <c:if test="${c.disgust==1}">#역겨움</c:if> 
+                    <c:if test="${c.interest==1}">#흥미</c:if> 
+                    <c:if test="${c.disappointment==1}">#실망</c:if> 
             </div>
-            <div class='src-peoplereview'>
+            <div class='src-peoplereview' style='background-color:#6d6d6d; color:white; box-shadow: 5px 5px 1px grey;' >
            <c:choose>
     <c:when test="${fn:length(movieList[(c.moviecode)-1].plot) > 50}">
         ${fn:substring(movieList[(c.moviecode)-1].plot, 0, 50)}...
