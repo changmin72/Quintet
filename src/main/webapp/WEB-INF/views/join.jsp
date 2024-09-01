@@ -18,6 +18,7 @@
 
     <div class="sign-container">
         <div class="sign-describe">
+        
             <h1>개인정보 수집 및 이용 동의서</h1>
             <p>
                 Quintet은 사용자의 얼굴을 통해 감정 분석 서비스를 제공합니다. 본 동의서는 해당 서비스 이용에 있어 필요한
@@ -37,6 +38,8 @@
             <div class="sign-buttons">
                 <button id="agree" class="button">동의</button>
                 <button id="reject" class="button">거부</button>
+            <br>
+                        <br>
             </div>
         </div>
         <form action="joinmember" method="post">

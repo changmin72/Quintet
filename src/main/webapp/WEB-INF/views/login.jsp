@@ -16,9 +16,9 @@
 
 
     <div class="sign-container">
-        <div class="sign-describe">
-    사진 땜빵
-        </div>
+     <!--   <div class="sign-describe">
+   <img alt="pop" src="images/pop.png">
+        </div>  -->
         <form action="gologin">
         <div class="signupin-container">
             

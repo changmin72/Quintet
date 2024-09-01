@@ -19,10 +19,12 @@
 
     <div class='searchresult-container' id="search-results">
 <c:forEach var="c" items="${search}">
-        <div class='searchresult-card' >
+      <div class='searchresult-card' style='background-image: url("assets/css/Frame 55.png"); background-size: cover;'>
+
+
            <div class='text-box' >${c.movietitle }</div>
              <div class="info-overlay" >
-             <div class='text-box'><a href="serch2?resultid=${c.resultid}">TAG</a> <br>
+             <div class='text-box1'><a href="serch2?resultid=${c.resultid}">TAG</a> <br>
              			공포 ${c.fear}<br>
                         행복 ${c.joy}<br>
                         놀람 ${c.surprise}<br>

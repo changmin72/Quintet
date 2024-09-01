@@ -64,6 +64,10 @@ public class EmotionDataController {
     public String goFaceAnalysis(String email, Model model) {
 		
     	List<EmotionData> emotion =repo.findByEmail(email);
+    	
+    	
+    	
+    	
     	model.addAttribute("emotion", emotion);
     	
      return "faceResult";	

@@ -33,7 +33,7 @@
         // Java에서 전달된 데이터를 사용합니다.
         
         var labels = ["공포","행복","놀람","슬픔","지루함","통증","혐오"];
-        var counts = [${serch2.fear},${serch2.joy},${serch2.surprise},${serch2.sadness},${serch2.boredom},${serch2.pain}${serch2.disgust}];
+        var counts = [${serch2.fear},${serch2.joy},${serch2.surprise},${serch2.sadness},${serch2.boredom},${serch2.pain},${serch2.disgust}];
         // 차트를 위한 데이터 형식으로 변환
         var chartData = labels.map(function(label, index) {
             return {
