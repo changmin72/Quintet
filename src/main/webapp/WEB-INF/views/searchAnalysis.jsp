@@ -17,15 +17,15 @@
 
 <%@ include file="header.jsp" %>
 
-    <div class="analysis-main-container">
+    <div class="analysis-main-container" style='height: 750px'>
     <form action="sAdata">
     <input type="hidden" value="${user.email}" name="email">
     <input type="hidden" value="${titlename}" name="movietitle">
     <input type="hidden" value="${countsJson}" name="emotioncount">
     <input type="hidden" value="${labelsJson}" name="emotionname">
-	<button type="submit" id="saveEmotionDataBtn">save</button>
+	<button type="submit" id="saveEmotionDataBtn" style='margin-left: 1050px;'>save</button>
         </form>
-        <div class="analysis-container">
+        <div class="analysis-container" style='height: 750px'>
             <div class="analysis"></div>
             <div id="analysis-result" class="analysis-result"></div>
         </div>

@@ -970,19 +970,17 @@ span {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    gap: 1em; /* 카드 사이의 간격 */
+    gap: 1em;
     width: 100%;
     max-width: 70em;
-    margin: 0px auto;
-        margin-top: 25px;
-    margin-bottom: 25px;
+    margin: 25px auto;
 }
 
 .faceresult-card {
-    background-color: #505050; 
+    background-color: #505050;
     border-radius: 20px;
     padding: 20px;
-    width: calc(33.333% - 20px); /* 카드 너비를 3등분하여 균등하게 배치 */
+    width: calc(33.333% - 20px);
     box-sizing: border-box;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
     font-size: 1.2em;
@@ -991,7 +989,7 @@ span {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    aspect-ratio: 1/1; /* 정사각형 비율 유지 */
+    aspect-ratio: 2/3; /* Adjust to match the aspect ratio if needed */
 }
 
 .frc-movietitle, .frc-mytag, .frc-myreview, .frc-viewdate {

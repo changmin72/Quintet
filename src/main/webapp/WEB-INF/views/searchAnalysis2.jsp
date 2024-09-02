@@ -17,9 +17,9 @@
 
 <%@ include file="header.jsp" %>
 
-    <div class="analysis-main-container">
+    <div class="analysis-main-container" style='height: 750px'>
     
-        <div class="analysis-container">
+        <div class="analysis-container" style='height: 750px'>
             <div class="analysis"></div>
             <div id="analysis-result" class="analysis-result"></div>
         </div>

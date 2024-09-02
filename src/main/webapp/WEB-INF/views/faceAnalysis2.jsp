@@ -23,10 +23,10 @@
 
 	<div class="analysis-main-container">
 		
-		<div class="analysis-container">
+		<div class="analysis-container" style='height: 750px'>
 
 	
-			<div id="analysis-result" class="analysis-result2"></div>
+			<div id="analysis-result" class="analysis-result2" style='height: 750px'></div>
 		</div>
 		
 	</div>
